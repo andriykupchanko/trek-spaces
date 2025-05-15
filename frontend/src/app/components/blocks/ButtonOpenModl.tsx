@@ -3,7 +3,7 @@ import { Button } from "@chakra-ui/react";
 
 interface OpenMenuButtonProps {
     title:string;
-    icon:Object;
+    icon: React.ReactElement;
     variantVisible:string;
     onOpen: () => void;
     btnRef: React.RefObject<HTMLButtonElement>;
